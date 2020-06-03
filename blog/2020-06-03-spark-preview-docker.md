@@ -13,15 +13,15 @@ keywords:
   - installation
 ---
 
-Apache Spark 3.0 second preview, the latest release, can easily be played around using its docker image. Let's do it.
+Apache Spark 3.0 second preview, the latest release, can be easily played around using its docker image. Let's do it.
 
 <!--truncate-->
 
 ### Install Docker
 
-As a first step, make sure you've installed Docker. If you are new to Docker or containers in general, then I would highly recommend going through this article about [why docker?](https://www.docker.com/why-docker). It also contains instructions for downloading and installing docker on your laptop.
+As a first step, make sure you've installed Docker. If you are new to Docker or containers in general, then I would highly recommend going through this article about [why docker?](https://www.docker.com/why-docker) It also contains instructions for downloading and installing docker on your laptop.
 
-Once you've installed docker, the next step is get the docker iamge with Spark 3.0 baked in.
+Once you've installed docker, the next step is to get the docker image with Spark 3.0 baked in.
 
 ### Run Spark 3.0 Preview on Docker
 
@@ -72,7 +72,7 @@ scala>
 
 ### Spark 3.0 Feature - Binary files
 
-In this section we will see the new datasource included in Spark 3.0 preview, i.e binary files. Lets just read an image file, that is found in the directory
+In this section we will see the new datasource included in Spark 3.0 preview, i.e binary files. Lets read an image file, that is found in the directory
 `/opt/data/`.
 
 ```scala
@@ -88,4 +88,4 @@ scala> file.show()
 
 ```
 
-You can read the official [documentation](https://spark.apache.org/docs/3.0.0-preview/sql-data-sources-binaryFile.html) to know more about this new API in other languages like Java, Python and R.
+To explore more about the binary files data source api, have a look at the official [documentation](https://spark.apache.org/docs/3.0.0-preview/sql-data-sources-binaryFile.html).
