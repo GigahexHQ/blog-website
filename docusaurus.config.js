@@ -8,6 +8,14 @@ module.exports = {
   projectName: "gigahex-blog", // Usually your repo name.
   themeConfig: {
     disableDarkMode: true,
+    googleAnalytics: {
+      trackingID: "UA-130638312-3",
+      anonymizeIP: true, // Should IPs be anonymized?
+    },
+    gtag: {
+      trackingID: "UA-130638312-3",
+      anonymizeIP: true, // Should IPs be anonymized?
+    },
     prism: {
       //theme: require("prism-react-renderer/themes/github"),
       additionalLanguages: ["scala"],
