@@ -15,9 +15,12 @@ function BlogPostPage(props) {
   const { content: BlogPostContents } = props;
   const { frontMatter, metadata } = BlogPostContents;
   const { title, description, nextItem, prevItem, editUrl } = metadata;
+  const defaultImgURL = "https://d2uqnt9f7uda88.cloudfront.net/img/screenshot-platform.png";
+  const blogImageURL = frontMatter.image || defaultImgURL;
+  const keywords = frontMatter.keywords || ["spark"];
 
   return (
-    <Layout title={title} description={description}>
+    <Layout title={title} description={description} image={blogImageURL} keywords={keywords}>
       {BlogPostContents && (
         <div className='container margin-vert--lg'>
           <div className='row'>

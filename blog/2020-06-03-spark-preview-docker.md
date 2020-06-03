@@ -7,6 +7,10 @@ image: https://d2uqnt9f7uda88.cloudfront.net/img/blog-spark-preview-docker-2.png
 author_url: https://github.com/amezng
 author_image_url: https://pbs.twimg.com/profile_images/835123474742063105/N3Qkp_r__400x400.jpg
 tags: [spark, docker]
+keywords:
+  - apache spark
+  - docker
+  - installation
 ---
 
 Apache Spark 3.0 second preview, the latest release, can easily be played around using its docker image. Let's do it.

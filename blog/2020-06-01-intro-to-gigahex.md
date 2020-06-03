@@ -7,6 +7,9 @@ image: https://d2uqnt9f7uda88.cloudfront.net/img/screenshot-platform.png
 author_url: https://github.com/wgao19
 author_image_url: https://pbs.twimg.com/profile_images/835123474742063105/N3Qkp_r__400x400.jpg
 tags: [spark, monitoring]
+keywords:
+  - apache spark
+  - monitoring
 ---
 
 Gigahex, the platform for monitoring for Spark applications will be available for developer’s in July 2020.
