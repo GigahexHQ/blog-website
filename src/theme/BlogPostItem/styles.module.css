@@ -1,0 +1,42 @@
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+.blogPostTitle {
+  font-size: 2rem;
+}
+
+.blogPostTag {
+  margin-right: 10px;
+  margin-bottom: 1rem;
+}
+a.blogAuthorName {
+  font-weight: normal;
+}
+div.blogBannerImg {
+  margin: -2rem -2rem 1rem -2rem;
+}
+div.blogMeta {
+  font-size: 0.8rem;
+  color: var(--gx--color-grey-light);
+}
+.blogDot {
+  display: inline-block;
+  margin: 0 4px;
+}
+.blogLink {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+a.blogLink:hover {
+  text-decoration: none;
+}
+
+.blogPostCard {
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 2rem;
+}
