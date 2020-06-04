@@ -33,32 +33,22 @@ module.exports = {
           label: "Blog",
           position: "left",
         },
-        { href: "https://gigahex.com", label: "Gigahex.com", position: "left" },
-        {
-          href: "https://app.gigahex.com",
-          label: "Login",
-          position: "right",
-        },
-        {
-          href: "https://gigahex.com",
-          label: "Request Access",
-          position: "right",
-        },
+        { href: "https://gigahex.com", label: "Gigahex.com", position: "right" },
       ],
     },
     footer: {
       style: "dark",
       links: [
         {
-          title: "Documentation",
+          title: "Links",
           items: [
             {
-              label: "Getting Started",
-              href: "https://docs.gigahex.com/docs/install",
+              label: "Apache Spark",
+              href: "https://spark.apache.org",
             },
             {
-              label: "Guide",
-              href: "https://docs.gigahex.com/docs/deploy-spark-with-gigahex",
+              label: "Monitoring Platform for Spark",
+              href: "https://gigahex.com",
             },
           ],
         },

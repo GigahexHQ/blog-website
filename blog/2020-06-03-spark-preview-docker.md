@@ -89,3 +89,5 @@ scala> file.show()
 ```
 
 To explore more about the binary files data source api, have a look at the official [documentation](https://spark.apache.org/docs/3.0.0-preview/sql-data-sources-binaryFile.html).
+
+If you are interested in knowing more about the Spark docker images, then head to the [github](https://github.com/GigahexHQ/docker-spark) project.
