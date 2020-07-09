@@ -25,10 +25,11 @@ We live in a world where things can go wrong at an unexpectable time, and it's a
 But guess what, quite often it is difficult, inspite of the source code being open. Lot of times, we are in the fire-fighting mode and we are unable to get answers in few minutes which could have helped critical business operations and saved the lovely evening for something special. And when we do find the root cause and fix the bug, its like party time. Time to relax and chill and have some pizza or a Biryani ( a higly seasoned rice dish).
 
 Hey! Hold on for a second. Why can't we just track the job's progress as we track the status of our biryani order. It must be straight forward.
+ß
 
 ## Time to build a Dev-Ops platform on steroids
 
-So we, where we = myself (Shad) + life partner (Arshi) decided to use my programming and her UI designing chops to build one stop Dev-Ops platform for Big Data with great aesthetics. But there are already so many deployment, monitoring and logging services out there. So why not just combine these pieces to get going.
+So we, where we = [myself](https://www.linkedin.com/in/shadamez/) and my [co-founder + life partner](https://www.linkedin.com/in/ashayesta/) decided to use my programming and her UI designing chops to build one stop Dev-Ops platform for Big Data with great aesthetics. But there are already so many deployment, monitoring and logging services out there. So why not just combine these pieces to get going.
 
 Well, I am not really a big fan of having to manage too many services for doing one thing. Apart from that, building intelligence into these segmented services, brings its own set of challenges. Finally the team ends up spending considerable time maintaining each of these services independently. Why not just use one platform or let the platform take care of making these independent services work together. This platform is what we are building, so that you focus on development and we manage the dependent services like CI/CD, secrets manager, configuration store, performance monitoring, log management and Big Data clusters.
 
