@@ -25,7 +25,6 @@ We live in a world where things can go wrong at an unexpectable time, and it's a
 But guess what, quite often it is difficult, inspite of the source code being open. Lot of times, we are in the fire-fighting mode and we are unable to get answers in few minutes which could have helped critical business operations and saved the lovely evening for something special. And when we do find the root cause and fix the bug, its like party time. Time to relax and chill and have some pizza or a Biryani ( a higly seasoned rice dish).
 
 Hey! Hold on for a second. Why can't we just track the job's progress as we track the status of our biryani order. It must be straight forward.
-ß
 
 ## Time to build a Dev-Ops platform on steroids
 
@@ -39,7 +38,7 @@ Yes? Great! Patience is the key.
 
 ## Being responsible
 
-So were these reasons enough to push me to become a full stack co-founder from a Spark developer. Obviously not.
+So were these reasons enough to push me to become a full stack co-founder from a Spark developer? Obviously not.
 
 I would like to take the responsibility of every penny spent on these massive clusters, running analytics jobs. And this was the most important reason to bootstrap this project so that each developer can know how much of resources their job is using and eliminate the wastage all together. We both are hell bent on eliminating the wastage of clusters and save cost for all the enterprises.
 
