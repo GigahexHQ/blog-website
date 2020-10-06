@@ -23,7 +23,7 @@ The painful part of the story of a Spark developer starts after the deployment t
 
 There are more than half a dozen tools that can deploy your code to production in a matter of few clicks once configured. But once something goes wrong, you have to compromise with age old bash or python scripts, distributed across multiple directories to set up local and staging data to reproduce the issue.
 
-## Fist step - birth of exception viewer
+## First step - birth of exception viewer
 
 We understand that bugs are inevitable, and that's why with Gigahex, we want developers to have access to all the information required for identifying the root cause and deploying the fix with the same platform. No dabbling around with multiple services, log files, server directories.
 
