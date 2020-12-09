@@ -14,11 +14,9 @@ keywords:
   - AWS EMR
 ---
 
-Gigahex is an alternative to Spark History server, that exposes a brand new dashboard to visualize the different metrics exposed by Spark.
+Gigahex is an alternative to Spark History server, that works with any Cloud or OnPrem Spark cluster. Today we will see how does it integrate with AWS EMR.
 
 <!--truncate-->
-
-Follow the below steps to configure your spark application to publish Spark metrics to Gigahex Cloud monitoring platform for Apache Spark.
 
 ### 1. Spin up an EMR Cluster
 
@@ -26,6 +24,12 @@ I am not really going to get into the details of spinning up an EMR cluster as i
 I am just using the AWS Console to create a new EMR Cluster with release version as `emr-6.2.0`. This version has the latest Spark as of now which is 3.0.1.
 
 ### 2. Install Gigahex CLI
+
+Login to EMR master node through the key pair.
+
+```bash
+ssh -i ~/emr-master.pem hadoop@ecx-x-x-xx-xxx.eu-west-2.compute.amazonaws.com
+```
 
 Gigahex CLI is a tool (will be open sourced in Jan 2021) to submit spark applications and automatically add configurations responsible for collecting and publishing metrics to the Gigahex Cloud. Assuming you are using the default `hadoop` user, having `sudo` access, you can run the below command to install the CLI.
 
@@ -75,7 +79,7 @@ The CLI tool, appends unique run id dynamically, which allows all the metrics, e
 
 ### 4.2 Submit through agent
 
-If you are looking for automation and ease of deployment through GUI based interface, then you can install the agent once and run mulitple spark applications on that cluster with different configuration through Gigahex Deployment wizard.
+If you are looking for automation and ease of deployment through GUI based interface, then you can install the agent once and run mulitple spark applications on that cluster with different configuration through Gigahex deployment wizard.
 
 #### 4.2.1 Register your cluster with agent
 
